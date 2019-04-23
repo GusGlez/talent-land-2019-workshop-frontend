@@ -9,7 +9,8 @@ before_script:
 script:
  - echo "Antes de la construccion."
  - npm build
-
+ - ls
+ 
 deploy:
   provider: pages
   local_dir: TRAVIS_BUILD_DIR
